@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./imagens/laptop-1478822_1280.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100hv;
+}
+
+.container {
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+header {
+    background-color: #6320EE;
+    color: #ffffff;
+    padding: 16px;
+    display: flex;
+    border-bottom: 16px solid;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%; 
+    padding: 10px;
+}
+
+form {
+    background-color: #c8d6e5;
+    padding: 24px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background-color: #277a43;
+    border: none;
+    border-radius: 5%;
+    color: #fff;
+    cursor: pointer;
+}
+
+#botao-excluir {
+    background-color: red;
+    border-radius: 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+ul li.completed {
+    text-decoration: line-through;
+    background-color: #d0d0d0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+button.excluir-tarefa {
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button.excluir-tarefa:hover {
+    background-color: darkred;
+}
